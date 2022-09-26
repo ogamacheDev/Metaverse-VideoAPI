@@ -11,4 +11,4 @@ You can find the extension on the [Chrome Web Store](https://chrome.google.com/w
 Browse a webpage containing a video (Youtube, Vimeo, etc.) and click on the icon of the extension.
 This will automatically send the video to the Video player of the current world.
 # Found a bug?
-We are trying to make this mod as stable as possible, if and issue comes in your way, please create a new [Git Issue here](https://github.com/ogamacheDev/cvr-videoapi/issues)!
+We are trying to make this mod as stable as possible, if an issue comes in your way, please create a new [Git Issue here](https://github.com/ogamacheDev/cvr-videoapi/issues)!
