@@ -1,11 +1,11 @@
 {
-    "name": "Metaverse VideoAPI",
+    "name": "Metaverse - VideoAPI",
     "action": {
         "default_popup": "popup.html"
     },
     "manifest_version": 3,
     "version": "0.1",
-    "description": "Takes any video and sends it to a Video Player",
+    "description": "Takes any video and sends it to a Video Player in a VR game",
     "permissions": [
         "activeTab",
         "scripting"
