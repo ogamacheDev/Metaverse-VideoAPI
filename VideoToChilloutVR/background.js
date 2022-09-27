@@ -17,9 +17,9 @@ const getVideoAndSend = () => {
       })
       .catch((error) => {
         navigator.clipboard.writeText(videoUrl).then(() => {
-          console.error("Failed to send video to Metaverse: ", error);
+          console.error("Failed to send video to VR: ", error);
           window.alert(
-            "Failed to send video to Metaverse.\nCopied to clipboard instead."
+            "Failed to send video to VR.\nCopied to clipboard instead."
           );
         });
       });
