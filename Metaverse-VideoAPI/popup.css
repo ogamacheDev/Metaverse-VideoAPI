@@ -13,6 +13,17 @@ h1 {
     text-align: center;
 }
 
+.img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+}
+
+img {
+  width: 60px;
+  margin: auto;
+}
+
 [data-tooltip] {
     position: relative;
     cursor: pointer;
@@ -42,7 +53,7 @@ h1 {
     text-overflow: ellipsis;
     padding: 6px 8px;
     border-radius: 3px;
-    background: #FF0000;
+    background: #df2c26;
     color: #FFFFFF;
     z-index: 99;
   }
