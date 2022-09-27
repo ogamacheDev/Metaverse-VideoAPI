@@ -4,13 +4,23 @@
     <link rel="stylesheet" href="popup.css">
   </head>
   <body>
-    <div class="img-wrapper">
-      <img src="logo.png" alt="">
+    <hr>
+    <div class="flex-wrapper">
+      <img class="logo" src="logo.png" alt="">
+      <h1>Metaverse - Video API</h1>
     </div>
-    <h1>Metaverse - Video API</h1>
-    <button id="streamButton" disabled data-tooltip="Coming soon" data-flow="top">Stream screen</button>
-    <button id="metaverseButton">Send video to VR</button>
-    <button id="clipboardButton">Copy video to clipboard</button>
+    <hr>
+    <div class="flex-wrapper" disabled data-tooltip="Coming soon" data-flow="top"> 
+      <button id="stream-btn" disabled>Stream screen</button>
+      <button id="stream-btn" disabled>Send screen share to VR</button>
+      <button id="stream-btn" disabled>Copy screen share to clipboard</button>
+    </div>
+    <hr>
+    <div class="flex-wrapper">    
+      <button id="metaverse-btn">Send video to VR</button>
+      <button id="clipboard-btn">Copy video to clipboard</button>
+    </div>
+    <hr>
     <script src="popup.js"></script>
   </body>
 </html>

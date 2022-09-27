@@ -1,8 +1,8 @@
 
 const bgPage = chrome.extension.getBackgroundPage();
 
-let metaverseButton = document.querySelector("#metaverseButton");
-let clipboardButton = document.querySelector("#clipboardButton");
+let metaverseButton = document.querySelector("#metaverse-btn");
+let clipboardButton = document.querySelector("#clipboard-btn");
 
 metaverseButton.addEventListener("click", () => {
     window.close();

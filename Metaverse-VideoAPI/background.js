@@ -27,6 +27,7 @@ const getVideoAndSend = (destination) => {
     } else if (destination == "Clipboard") {
       setTimeout(() => {
         navigator.clipboard.writeText(videoUrl).then(() => {
+          console.log("Copied to clipboard!");
           window.alert(
             "Copied to clipboard!"
           );
