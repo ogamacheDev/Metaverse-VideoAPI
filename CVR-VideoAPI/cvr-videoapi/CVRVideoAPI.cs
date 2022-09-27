@@ -110,6 +110,7 @@ namespace cvr_videoapi
                         resp.KeepAlive = false;
                         resp.ProtocolVersion = new Version("1.1");
                         resp.ContentLength64 = 0;
+                        resp.AppendHeader("Access-Control-Allow-Origin", "*");
                         await resp.OutputStream.WriteAsync(new byte[] { }, 0, 0);
                     }
                     else
