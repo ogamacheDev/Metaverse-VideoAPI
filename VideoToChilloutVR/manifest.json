@@ -1,17 +1,19 @@
 {
-    "name": "Video to ChilloutVR",
-    "action": {},
+    "name": "Metaverse VideoAPI",
+    "action": {
+        "default_popup": "popup.html"
+    },
     "manifest_version": 3,
     "version": "0.1",
-    "description": "Takes any video and sends it to a Video Player in ChilloutVR",
+    "description": "Takes any video and sends it to a Video Player",
     "permissions": [
         "activeTab",
         "scripting"
     ],
-    "icons": {
-        "128": "icon.png"
-    },
     "background": {
         "service_worker": "background.js"
-    }
+      },
+    "icons": {
+        "128": "icon.png"
+    }    
 }
