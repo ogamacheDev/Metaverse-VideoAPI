@@ -1,7 +1,7 @@
 # Introduction
 This mod and extension allows you to take any publicly available video found in a `<video>` or a any Unity videoplayer compatible videos from **Youtube** and **Vimeo** and send it directly to a video player in ChilloutVR or to copy it to your clipboard.
 # How to Install
-For of all, you need to install the ChilloutVR Mod and install the Chrome Extension (will add the Chrome extension to the Chrome Web Store in the future).
+You need to install the ChilloutVR Mod and install the Chrome Extension. More instructions below.
 ## Install the Chrome Extension
 You can find the extension on the [Chrome Web Store](https://chrome.google.com/webstore/detail/video-to-chilloutvr/capnfgnjbmfimoaegijnbfkngpppkopa?hl=en&authuser=2).
 ## Install the ChilloutVR Mod
