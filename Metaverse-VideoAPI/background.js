@@ -1,6 +1,11 @@
 const getVideoAndSend = (destination) => {
-  let videoUrl = document.querySelector("video")?.src || "";
-
+  let video = document.querySelector("video");
+  let videoUrl = video?.src || "";
+  
+  if (video.querySelector('source')) {
+    videoUrl = video.querySelector('source')?.src || "";
+  }
+  
   if (videoUrl.startsWith("blob:")) {
     videoUrl = location.href;
   } else if (!videoUrl) {
